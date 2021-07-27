@@ -16,7 +16,7 @@ const Info = () => (
             rel='noopener noreferrer'>
             배재대학교 AI소프트웨어공학부
           </a>
-          <span> 재학중</span>
+          <span> 재학 중</span>
         </p>
         <br />
         <span>
@@ -24,15 +24,15 @@ const Info = () => (
             💻 소프트웨어 엔지니어
             <br />
             <span className='Info-detail'>
-              생각나는 것을 만드는 프로그래머 입니다.
+              생각나는 것을 만드는 프로그래머입니다.
               <br />
-              어디에 쓰는건지 모르는 사람도 있겠지만
-              <br />저 또는 주위에 필요하다고 느끼는것을 만듭니다.
+              어디에 쓰는건지 모르는 사람도 있겠지만,
+              <br />저 또는 주위에 필요하다고 느끼는 것을 만듭니다.
             </span>
           </p>
           <br />
           <p className='Info-desc text-white'>
-            🖌️ 일러스트레이터 (연습중)
+            🖌️ 일러스트레이터 (연습 중)
             <br />
             <span className='Info-detail'>
               여가시간에 태블릿을 활용하여 생각나거나 그리고 싶은 것을

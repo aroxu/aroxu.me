@@ -31,7 +31,7 @@ const Skills = () => (
                 target='_blank'
                 rel='noopener noreferrer'>
                 Next.JS
-              </a>
+              </a>{' '}
               등을 이용하여 Front-end 페이지를 만듭니다.
               <br />
               <a
@@ -40,8 +40,8 @@ const Skills = () => (
                 target='_blank'
                 rel='noopener noreferrer'>
                 Go
-              </a>
-              언어를 이용하거나,
+              </a>{' '}
+              언어를 이용하거나,{' '}
               <a
                 className='Link font-bold'
                 href='https://nestjs.com'
