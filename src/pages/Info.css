@@ -30,7 +30,7 @@
   padding: 0px;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1132px) {
   .Info {
     flex-direction: column-reverse;
     justify-content: center;
@@ -41,22 +41,22 @@
 }
 
 .Avatar {
-  width: 50vmin;
-  height: 50vmin;
+  width: 48vmin;
+  height: 48vmin;
   background-image: url('https://avatars.githubusercontent.com/u/30624945?v=4');
   background-size: cover;
-  border-top-left-radius: 50vmin;
-  -webkit-border-top-left-radius: 50vmin;
-  -moz-border-top-left-radius: 50vmin;
-  border-top-right-radius: 50vmin;
-  -webkit-border-top-right-radius: 50vmin;
-  -moz-border-top-right-radius: 50vmin;
-  border-bottom-left-radius: 50vmin;
-  -webkit-border-bottom-left-radius: 50vmin;
-  -moz-border-bottom-left-radius: 50vmin;
-  border-bottom-right-radius: 50vmin;
-  -webkit-border-bottom-right-radius: 50vmin;
-  -moz-border-bottom-right-radius: 50vmin;
+  border-top-left-radius: 48vmin;
+  -webkit-border-top-left-radius: 48vmin;
+  -moz-border-top-left-radius: 48vmin;
+  border-top-right-radius: 48vmin;
+  -webkit-border-top-right-radius: 48vmin;
+  -moz-border-top-right-radius: 48vmin;
+  border-bottom-left-radius: 48vmin;
+  -webkit-border-bottom-left-radius: 48vmin;
+  -moz-border-bottom-left-radius: 48vmin;
+  border-bottom-right-radius: 48vmin;
+  -webkit-border-bottom-right-radius: 48vmin;
+  -moz-border-bottom-right-radius: 48vmin;
 }
 
 .Link {

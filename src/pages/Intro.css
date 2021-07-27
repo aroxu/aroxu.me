@@ -20,7 +20,7 @@
   padding: 0px;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1132px) {
   .Intro {
     flex-direction: column;
     justify-content: center;
