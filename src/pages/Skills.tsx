@@ -6,7 +6,7 @@ const Skills = () => (
     <div className='Skills'>
       <div className='Skills-container'>
         <p className='Skills-header font-bold highlight-lapis text-white'>
-          Your world's an ideal
+          Be creative, Be better.
         </p>
         <p className='Skills-desc text-white'>
           분석적이고 논리적이며 창의적인 것을 추구합니다.
