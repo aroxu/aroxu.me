@@ -21,7 +21,7 @@ const Root = () => {
         mousewheel={true}
         keyboard={true}
         direction={'vertical'}
-        speed={1000}>
+        speed={500}>
         <SwiperSlide>
           <Intro />
         </SwiperSlide>
