@@ -1,0 +1,12 @@
+.Copyright {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: calc(8px + 2vw);
+  margin-right: calc(8px + 2vw);
+  text-align: center;
+  color: white;
+}

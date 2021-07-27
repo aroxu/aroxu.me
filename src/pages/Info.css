@@ -1,0 +1,65 @@
+.Info {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  margin-left: calc(8px + 2vw);
+  margin-right: calc(8px + 2vw);
+}
+
+.Info-header {
+  text-align: start;
+  font-size: calc(10px + 5vmin);
+}
+
+.Info-desc {
+  text-align: start;
+  font-weight: bolder;
+  font-size: calc(8px + 1.5vmin);
+  margin: 0px;
+  padding: 0px;
+}
+
+.Info-detail {
+  text-align: start;
+  font-weight: normal;
+  font-size: calc(8px + 1vmin);
+  margin: 0px;
+  padding: 0px;
+}
+
+@media screen and (max-width: 960px) {
+  .Info {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .Info-header {
+    text-align: center;
+  }
+}
+
+.Avatar {
+  width: 50vmin;
+  height: 50vmin;
+  background-image: url('https://avatars.githubusercontent.com/u/30624945?v=4');
+  background-size: cover;
+  border-top-left-radius: 50vmin;
+  -webkit-border-top-left-radius: 50vmin;
+  -moz-border-top-left-radius: 50vmin;
+  border-top-right-radius: 50vmin;
+  -webkit-border-top-right-radius: 50vmin;
+  -moz-border-top-right-radius: 50vmin;
+  border-bottom-left-radius: 50vmin;
+  -webkit-border-bottom-left-radius: 50vmin;
+  -moz-border-bottom-left-radius: 50vmin;
+  border-bottom-right-radius: 50vmin;
+  -webkit-border-bottom-right-radius: 50vmin;
+  -moz-border-bottom-right-radius: 50vmin;
+}
+
+.Link {
+  text-decoration: underline white;
+  color: white;
+}

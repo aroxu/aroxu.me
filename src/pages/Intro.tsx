@@ -1,17 +1,18 @@
-import "./Intro.css";
+import './Intro.css'
+import '../Root.css'
 
-function Intro() {
-  return (
-    <div className="Intro">
-      <header className="Intro-container">
-        <h2>이상과 상상, 그 이상</h2>
-        <p className="Intro-desc">흥미로운것들을 상상해내고 만들어봅니다.</p>
-      </header>
-      <div className="Intro-footer-bg">
-        <footer className="Intro-footer">↓ 아래로 내려서 진행</footer>
+const Intro = () => (
+  <>
+    <div className='Intro'>
+      <div>
+        <h2 className='Intro-header text-white font-bold'>
+          이상과 상상, 그 이상
+        </h2>
+        <p className='Intro-desc text-white'>흥미로운것을 상상하고 만듭니다.</p>
       </div>
+      <div className='Arrow text-white'>↓</div>
     </div>
-  );
-}
+  </>
+)
 
-export default Intro;
+export default Intro
