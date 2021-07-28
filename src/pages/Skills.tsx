@@ -11,7 +11,7 @@ const Skills = () => (
           분석적이고 논리적이며 창의적인 것을 추구합니다.
         </p>
         <br />
-        <span className='Skills-footer'>
+        <span>
           <p className='Skills-desc text-white'>
             🕸️ {'<'}Full-Stack Developer{'/>'}
             <br />
