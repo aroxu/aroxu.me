@@ -1,5 +1,4 @@
 import './Copyright.css'
-import '../Root.css'
 
 const Copyright = () => (
   <div className='Copyright'>

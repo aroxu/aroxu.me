@@ -1,5 +1,4 @@
 import './Contact.css'
-import '../Root.css'
 
 const Contact = () => (
   <>

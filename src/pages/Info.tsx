@@ -1,5 +1,5 @@
 import './Info.css'
-import '../Root.css'
+import '../Root.scss'
 
 const Info = () => (
   <>
@@ -25,8 +25,6 @@ const Info = () => (
             <br />
             <span className='Info-detail'>
               생각나는 것을 만드는 프로그래머입니다.
-              <br />
-              어디에 쓰는건지 모르는 사람도 있겠지만,
               <br />저 또는 주위에 필요하다고 느끼는 것을 만듭니다.
             </span>
           </p>
@@ -44,7 +42,9 @@ const Info = () => (
         </span>
       </div>
 
-      <div className='Avatar' />
+      <div className='Avatar-container'>
+        <div className='Avatar' />
+      </div>
     </div>
   </>
 )

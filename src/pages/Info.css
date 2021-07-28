@@ -3,7 +3,7 @@
   min-height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: row-reverse;
   margin-left: calc(8px + 2vw);
   margin-right: calc(8px + 2vw);
@@ -38,6 +38,8 @@
   .Info-header {
     text-align: center;
   }
+}
+.Avatar-container {
 }
 
 .Avatar {

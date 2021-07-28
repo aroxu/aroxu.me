@@ -1,5 +1,4 @@
 import './Skills.css'
-import '../Root.css'
 
 const Skills = () => (
   <>
@@ -32,7 +31,7 @@ const Skills = () => (
                 rel='noopener noreferrer'>
                 Next.JS
               </a>{' '}
-              등을 이용하여 Front-end 페이지를 만듭니다.
+              등을 이용하여 프론트엔드를 만듭니다.
               <br />
               <a
                 className='Link font-bold'
@@ -41,7 +40,7 @@ const Skills = () => (
                 rel='noopener noreferrer'>
                 Go
               </a>{' '}
-              언어를 이용하거나,{' '}
+              언어, 또는
               <a
                 className='Link font-bold'
                 href='https://nestjs.com'
@@ -49,7 +48,7 @@ const Skills = () => (
                 rel='noopener noreferrer'>
                 Nest.JS
               </a>
-              를 활용하여 백엔드를 만듭니다.
+              를 이용하여 백엔드를 만듭니다.
               <br />
               세미콜론을 얼마나 많이 입력했는지 기억나지 않네요;
             </span>

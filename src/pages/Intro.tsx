@@ -1,5 +1,4 @@
 import './Intro.css'
-import '../Root.css'
 
 const Intro = () => (
   <>
