@@ -1,6 +1,5 @@
 import { StrictMode } from 'react'
 import ReactDOM from 'react-dom'
-import reportWebVitals from './reportWebVitals'
 
 import Root from './Root'
 
@@ -11,4 +10,3 @@ ReactDOM.render(
   </StrictMode>,
   rootElement
 )
-reportWebVitals(console.log)
