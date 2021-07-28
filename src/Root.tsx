@@ -20,33 +20,31 @@ import Copyright from './pages/Copyright'
 
 SwiperCore.use([Navigation, Pagination, Mousewheel, Keyboard, EffectCoverflow])
 
-const Root = () => {
-  return (
-    <>
-      <Swiper
-        mousewheel={true}
-        keyboard={true}
-        direction={'vertical'}
-        effect='coverflow'
-        speed={500}>
-        <SwiperSlide>
-          <Intro />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Info />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Skills />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Contact />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Copyright />
-        </SwiperSlide>
-      </Swiper>
-    </>
-  )
-}
+const Root = () => (
+  <>
+    <Swiper
+      mousewheel={true}
+      keyboard={true}
+      direction={'vertical'}
+      effect='coverflow'
+      speed={500}>
+      <SwiperSlide>
+        <Intro />
+      </SwiperSlide>
+      <SwiperSlide>
+        <Info />
+      </SwiperSlide>
+      <SwiperSlide>
+        <Skills />
+      </SwiperSlide>
+      <SwiperSlide>
+        <Contact />
+      </SwiperSlide>
+      <SwiperSlide>
+        <Copyright />
+      </SwiperSlide>
+    </Swiper>
+  </>
+)
 
 export default Root
