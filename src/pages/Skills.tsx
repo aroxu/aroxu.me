@@ -60,7 +60,7 @@ const Skills = () => (
             <span className='Skills-detail'>
               하나의 언어와 프레임워크로 효율적이게
               <br />
-              여러 종류의 디바이스로 앱을 만듭니다.
+              여러 종류의 디바이스를 타겟으로 앱을 만듭니다.
               <br />
               <a
                 className='Link font-bold'
