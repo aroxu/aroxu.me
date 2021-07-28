@@ -40,7 +40,7 @@ const Skills = () => (
                 rel='noopener noreferrer'>
                 Go
               </a>{' '}
-              언어, 또는
+              언어, 또는{' '}
               <a
                 className='Link font-bold'
                 href='https://nestjs.com'
