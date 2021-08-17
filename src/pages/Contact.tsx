@@ -5,7 +5,8 @@ const Contact = () => (
     <div className='Contact'>
       <div className='Contact-container'>
         <p className='Contact-header font-bold highlight-white text-black'>
-          Feel free to contact.
+          {' '}
+          Feel free to contact.{' '}
         </p>
         <span>
           <p className='Contact-desc text-white'>

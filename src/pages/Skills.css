@@ -12,6 +12,8 @@
 .Skills-header {
   text-align: start;
   font-size: calc(10px + 5vmin);
+  padding-left: 0.7vw;
+  padding-right: 0.75vw;
 }
 
 .Skills-desc {
