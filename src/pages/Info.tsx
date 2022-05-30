@@ -1,22 +1,22 @@
-import './Info.css'
 import '../Root.scss'
+import './Info.css'
 
 const Info = () => (
   <>
     <div className='Info'>
       <div className='Info-container'>
-        <p className='Info-header font-bold highlight-red text-black'>
+        <p className='Info-header font-bold highlight-gold text-black'>
           I think, therefore, I am.
         </p>
         <p className='Info-desc text-white'>
           <a
             className='Link font-bold'
-            href='https://ce.pcu.ac.kr'
+            href='https://hakgwa.pcu.ac.kr/ce'
             target='_blank'
             rel='noopener noreferrer'>
-            배재대학교 AI소프트웨어공학부
+            AI소프트웨어공학부
           </a>
-          <span> 재학 중</span>
+          <span> 주전공 이수중</span>
         </p>
         <br />
         <span>
@@ -28,15 +28,30 @@ const Info = () => (
               <br />저 또는 주위에 필요하다고 느끼는 것을 만듭니다.
             </span>
           </p>
-          <br />
+        </span>
+        <br />
+
+        <p className='Info-desc text-white'>
+          <a
+            className='Link font-bold'
+            href='https://hakgwa.pcu.ac.kr/artwebtoon'
+            target='_blank'
+            rel='noopener noreferrer'>
+            아트앤웹툰학과
+          </a>
+          <span> 복수전공 이수중</span>
+        </p>
+
+        <br />
+        <span>
           <p className='Info-desc text-white'>
             🖌️ 일러스트레이터 (연습 중)
             <br />
             <span className='Info-detail'>
-              여가시간에 태블릿을 활용하여 생각나거나 그리고 싶은 것을
+              여가시간에 타블릿을 활용하여 생각나거나 그리고 싶은 것을
               그려냅니다.
               <br />
-              주로 사람들의 모습을 보고 생각나는 것을 그려냅니다.
+              대체로 여러가지 매체로부터 영감을 받고 그림을 그려냅니다.
             </span>
           </p>
         </span>
