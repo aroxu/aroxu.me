@@ -11,10 +11,10 @@ const Info = () => (
         <p className='Info-desc text-white'>
           <a
             className='Link font-bold'
-            href='https://hakgwa.pcu.ac.kr/ce'
+            href='https://google.com/search?q=컴퓨터공학과'
             target='_blank'
             rel='noopener noreferrer'>
-            AI소프트웨어공학부
+            컴퓨터공학과
           </a>
           <span> 주전공 이수중</span>
         </p>
@@ -34,10 +34,10 @@ const Info = () => (
         <p className='Info-desc text-white'>
           <a
             className='Link font-bold'
-            href='https://hakgwa.pcu.ac.kr/artwebtoon'
+            href='https://google.com/search?q=디지털아트학과'
             target='_blank'
             rel='noopener noreferrer'>
-            아트앤웹툰학과
+            디지털아트 관련 학과
           </a>
           <span> 복수전공 이수중</span>
         </p>
