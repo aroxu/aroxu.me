@@ -5,7 +5,7 @@ const Info = () => (
   <>
     <div className='Info'>
       <div className='Info-container'>
-        <p className='Info-header font-bold highlight-gold text-black'>
+        <p className='Info-header font-bold highlight-ocean text-black'>
           I think, therefore, I am.
         </p>
         <p className='Info-desc text-white'>

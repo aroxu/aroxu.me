@@ -4,7 +4,7 @@ const Skills = () => (
   <>
     <div className='Skills'>
       <div className='Skills-container'>
-        <p className='Skills-header font-bold highlight-lapis text-white'>
+        <p className='Skills-header font-bold highlight-red text-white'>
           Be creative, Be better.
         </p>
         <p className='Skills-desc text-white'>
