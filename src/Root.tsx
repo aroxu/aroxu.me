@@ -1,15 +1,10 @@
 import { Swiper, SwiperSlide } from 'swiper/react'
+import { Keyboard, Mousewheel, Pagination, Navigation } from 'swiper/modules'
 
 // Import Swiper styles
-import 'swiper/swiper.min.css'
-// Import Swiper extensions
-import SwiperCore, {
-  Keyboard,
-  Mousewheel,
-  Pagination,
-  Navigation,
-  EffectCoverflow,
-} from 'swiper/core'
+import 'swiper/css'
+import 'swiper/css/navigation'
+import 'swiper/css/pagination'
 
 import './Root.scss'
 import Intro from './pages/Intro'
@@ -18,16 +13,25 @@ import Skills from './pages/Skills'
 import Contact from './pages/Contact'
 import Copyright from './pages/Copyright'
 
-SwiperCore.use([Navigation, Pagination, Mousewheel, Keyboard, EffectCoverflow])
-
 const Root = () => (
   <>
     <Swiper
-      mousewheel={true}
-      keyboard={true}
-      direction={'vertical'}
-      effect='coverflow'
-      speed={500}>
+      modules={[Navigation, Pagination, Mousewheel, Keyboard]}
+      mousewheel={{
+        enabled: true,
+        sensitivity: 1,
+        releaseOnEdges: true,
+      }}
+      keyboard={{
+        enabled: true,
+        onlyInViewport: true,
+      }}
+      direction='vertical'
+      speed={500}
+      spaceBetween={0}
+      slidesPerView={1}
+      allowTouchMove={true}
+      style={{ height: '100vh', width: '100vw' }}>
       <SwiperSlide>
         <Intro />
       </SwiperSlide>
