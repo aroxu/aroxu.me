@@ -13,7 +13,7 @@ const Skills = () => (
         <br />
         <span>
           <p className='Skills-desc text-white'>
-            🕸️ {'<'}Backend Developer{'/>'}
+            ⚙️ {'<'}Backend Developer{'/>'}
             <br />
             <span className='Skills-detail'>
               <a
