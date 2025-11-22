@@ -32,7 +32,7 @@ body {
 }
 
 body {
-  background: #1F1F1F;
+  background: #1f1f1f;
   font-family: 'Pretendard-Regular';
   font-size: 14px;
   color: #000;
@@ -45,6 +45,7 @@ body {
   font-weight: lighter;
 }
 
+.swiper,
 .swiper-container {
   width: 100%;
   height: 100%;
@@ -53,7 +54,7 @@ body {
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #1F1F1F;
+  background: #1f1f1f;
 }
 
 .swiper-slide img {
@@ -64,11 +65,11 @@ body {
 }
 
 .highlight-gold {
-  background: linear-gradient(to top, #FCC447 100%, transparent 100%);
+  background: linear-gradient(to top, #fcc447 100%, transparent 100%);
 }
 
 .highlight-ocean {
-  background: linear-gradient(to top, #2E999C 100%, transparent 100%);
+  background: linear-gradient(to top, #2e999c 100%, transparent 100%);
 }
 
 .highlight-white {
@@ -88,9 +89,10 @@ body {
 }
 
 .text-black {
-  color: #1F1F1F;
+  color: #1f1f1f;
 }
 
+.swiper-cube,
 .swiper-container-cube {
   overflow: visible;
   .swiper-slide {
@@ -105,6 +107,7 @@ body {
       pointer-events: none;
     }
   }
+  &.swiper-rtl .swiper-slide,
   &.swiper-container-rtl .swiper-slide {
     transform-origin: 100% 0;
   }

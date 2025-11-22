@@ -13,9 +13,28 @@ const Skills = () => (
         <br />
         <span>
           <p className='Skills-desc text-white'>
-            🕸️ {'<'}Full-Stack Developer{'/>'}
+            🕸️ {'<'}Backend Developer{'/>'}
             <br />
             <span className='Skills-detail'>
+              <a
+                className='Link font-bold'
+                href='https://golang.org'
+                target='_blank'
+                rel='noopener noreferrer'>
+                Go
+              </a>{' '}
+              언어 또는{' '}
+              <a
+                className='Link font-bold'
+                href='https://nestjs.com'
+                target='_blank'
+                rel='noopener noreferrer'>
+                Nest.JS
+              </a>
+              를 이용하여 백엔드를 만듭니다.
+              <br />
+              가끔, 정말 필요할 때는 프론트엔드도 다룹니다.
+              <br />
               <a
                 className='Link font-bold'
                 href='https://reactjs.org'
@@ -33,24 +52,6 @@ const Skills = () => (
               </a>{' '}
               등을 이용하여 프론트엔드를 만듭니다.
               <br />
-              <a
-                className='Link font-bold'
-                href='https://golang.org'
-                target='_blank'
-                rel='noopener noreferrer'>
-                Go
-              </a>{' '}
-              언어, 또는{' '}
-              <a
-                className='Link font-bold'
-                href='https://nestjs.com'
-                target='_blank'
-                rel='noopener noreferrer'>
-                Nest.JS
-              </a>
-              를 이용하여 백엔드를 만듭니다.
-              <br />
-              지금까지 괄호를 얼마나 열었는지 기억나지 않습니다.
             </span>
           </p>
           <br />
@@ -64,20 +65,12 @@ const Skills = () => (
               <br />
               <a
                 className='Link font-bold'
-                href='https://reactnative.dev'
-                target='_blank'
-                rel='noopener noreferrer'>
-                React Native
-              </a>
-              와{' '}
-              <a
-                className='Link font-bold'
                 href='https://flutter.dev'
                 target='_blank'
                 rel='noopener noreferrer'>
                 Flutter
               </a>
-              를 주로 다루며, Flutter를 더 선호합니다.
+              를 이용하며, 타깃 디바이스는 모바일, 웹, 데스크톱 등 다양합니다.
             </span>
           </p>
         </span>
